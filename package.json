@@ -1,0 +1,87 @@
+{
+  "name": "donnys-list-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@opentok/client": "^2.20.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^2.3.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "nodemailer": "^6.6.2",
+    "opentok-react": "^0.11.0",
+    "opentok-token": "^1.1.1",
+    "passport-facebook": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-avatar-edit": "^1.0.0",
+    "react-avatar-editor": "^11.1.0",
+    "react-bootstrap": "^0.32.4",
+    "react-bs-notifier": "^6.0.0",
+    "react-calendar": "^3.4.0",
+    "react-chatview": "^0.2.5",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-emojione": "^5.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-form-validate": "^1.0.3",
+    "react-ga": "^3.3.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-iframe": "^1.8.0",
+    "react-image-carousel": "^2.0.18",
+    "react-markdown": "^6.0.2",
+    "react-masonry-component": "^6.2.1",
+    "react-moment": "^1.1.1",
+    "react-rating": "^2.0.5",
+    "react-rating-stars-component": "^2.2.0",
+    "react-recaptcha": "^2.3.10",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-form": "^8.3.7",
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "stripe": "^8.160.0",
+    "stripe-client": "^1.1.5",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=5000 && react-scripts start  ---max-old-space-size=512",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
